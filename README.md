@@ -12,23 +12,18 @@ IT teams need a reliable way to know **what assets exist, who has them, where th
 
 Tracer is not just a CRUD demo. It uses a layered, domain-oriented backend with vertical application slices, an Angular Material SPA, permission-aware UI rendering, JWT authentication, health checks, background jobs, structured logging, and production-style containerization.
 
-- [x] 
 
 - Clean Architecture-style .NET solution: `Domain`, `Application`, `Persistence`, `Infrastructure`, `Api`, and `Shared` layers.
 
-- [x] 
 
 - Enterprise asset workflows: check-out/check-in, assigned items, request approvals, inventory, licenses, depreciation, notifications, and tenant settings.
 
-- [x] 
 
 - Hardened API surface: JWT auth, RBAC policies, rate limiting, output caching, response compression, security headers, correlation IDs, and global exception handling.
 
-- [x] 
 
 - Dockerized stack with API, Angular web app, SQL Server, Redis, and Seq observability.
 
-- [x] 
 
 - Developer-friendly hot reload profile for both .NET and Angular.
 
@@ -36,71 +31,55 @@ Tracer is not just a CRUD demo. It uses a layered, domain-oriented backend with 
 
 ### Asset & inventory operations
 
-- [x] 
 
 - Asset registration, update, delete, search, pagination, sorting, and lifecycle transitions.
 
-- [x] 
 
 - Check-out/check-in workflows for assigned assets.
 
-- [x] 
 
 - Inventory modules for accessories, components, consumables, and software licenses.
 
-- [x] 
 
 - Master data management for categories, manufacturers, suppliers, locations, departments, companies, status labels, and asset models.
 
-- [x] 
 
 - Depreciation modeling and financial reporting jobs.
 
 ### People, approvals & permissions
 
-- [x] 
 
 - JWT login, refresh token, and current-user endpoints.
 
-- [x] 
 
 - User and role management.
 
-- [x] 
 
 - Permission-gated API policies and Angular UI elements.
 
-- [x] 
 
 - Request workflows for “my requests”, approval queues, return requests, and request catalogs.
 
-- [x] 
 
 - “My items” views for assets, consumables, components, accessories, and licenses assigned to the active user.
 
 ### Reliability & operations
 
-- [x] 
 
 - EF Core SQL Server persistence with optional automatic migrations.
 
-- [x] 
 
 - Hangfire background processing and local dashboard.
 
-- [x] 
 
 - SQL Server and Redis readiness health checks.
 
-- [x] 
 
 - Serilog structured logs with Seq support.
 
-- [x] 
 
 - k6 smoke and load test scripts for API performance validation.
 
-- [x] 
 
 - Docker Compose deployment script with local service URLs and default seeded login.
 
