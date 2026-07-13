@@ -1,0 +1,512 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sakthi/projects/new/src/Tracer.Api/Tracer.Api.csproj": {}
+  },
+  "projects": {
+    "/home/sakthi/projects/new/src/Tracer.Api/Tracer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sakthi/projects/new/src/Tracer.Api/Tracer.Api.csproj",
+        "projectName": "Tracer.Api",
+        "projectPath": "/home/sakthi/projects/new/src/Tracer.Api/Tracer.Api.csproj",
+        "packagesPath": "/home/sakthi/.nuget/packages/",
+        "outputPath": "/home/sakthi/projects/new/src/Tracer.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sakthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj"
+              },
+              "/home/sakthi/projects/new/src/Tracer.Infrastructure/Tracer.Infrastructure.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Infrastructure/Tracer.Infrastructure.csproj"
+              },
+              "/home/sakthi/projects/new/src/Tracer.Persistence/Tracer.Persistence.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Persistence/Tracer.Persistence.csproj"
+              },
+              "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.23, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/sakthi/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj",
+        "projectName": "Tracer.Application",
+        "projectPath": "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj",
+        "packagesPath": "/home/sakthi/.nuget/packages/",
+        "outputPath": "/home/sakthi/projects/new/src/Tracer.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sakthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/sakthi/projects/new/src/Tracer.Domain/Tracer.Domain.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Domain/Tracer.Domain.csproj"
+              },
+              "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.23, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/sakthi/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sakthi/projects/new/src/Tracer.Domain/Tracer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sakthi/projects/new/src/Tracer.Domain/Tracer.Domain.csproj",
+        "projectName": "Tracer.Domain",
+        "projectPath": "/home/sakthi/projects/new/src/Tracer.Domain/Tracer.Domain.csproj",
+        "packagesPath": "/home/sakthi/.nuget/packages/",
+        "outputPath": "/home/sakthi/projects/new/src/Tracer.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sakthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/sakthi/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sakthi/projects/new/src/Tracer.Infrastructure/Tracer.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sakthi/projects/new/src/Tracer.Infrastructure/Tracer.Infrastructure.csproj",
+        "projectName": "Tracer.Infrastructure",
+        "projectPath": "/home/sakthi/projects/new/src/Tracer.Infrastructure/Tracer.Infrastructure.csproj",
+        "packagesPath": "/home/sakthi/.nuget/packages/",
+        "outputPath": "/home/sakthi/projects/new/src/Tracer.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sakthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj"
+              },
+              "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/sakthi/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sakthi/projects/new/src/Tracer.Persistence/Tracer.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sakthi/projects/new/src/Tracer.Persistence/Tracer.Persistence.csproj",
+        "projectName": "Tracer.Persistence",
+        "projectPath": "/home/sakthi/projects/new/src/Tracer.Persistence/Tracer.Persistence.csproj",
+        "packagesPath": "/home/sakthi/.nuget/packages/",
+        "outputPath": "/home/sakthi/projects/new/src/Tracer.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sakthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Application/Tracer.Application.csproj"
+              },
+              "/home/sakthi/projects/new/src/Tracer.Domain/Tracer.Domain.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Domain/Tracer.Domain.csproj"
+              },
+              "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj": {
+                "projectPath": "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/sakthi/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj",
+        "projectName": "Tracer.Shared",
+        "projectPath": "/home/sakthi/projects/new/src/Tracer.Shared/Tracer.Shared.csproj",
+        "packagesPath": "/home/sakthi/.nuget/packages/",
+        "outputPath": "/home/sakthi/projects/new/src/Tracer.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sakthi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/sakthi/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

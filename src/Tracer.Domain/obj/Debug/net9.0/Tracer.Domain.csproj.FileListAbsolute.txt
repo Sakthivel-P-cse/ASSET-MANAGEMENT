@@ -1,0 +1,16 @@
+/home/sakthi/projects/new/src/Tracer.Domain/bin/Debug/net9.0/Tracer.Domain.deps.json
+/home/sakthi/projects/new/src/Tracer.Domain/bin/Debug/net9.0/Tracer.Domain.dll
+/home/sakthi/projects/new/src/Tracer.Domain/bin/Debug/net9.0/Tracer.Domain.pdb
+/home/sakthi/projects/new/src/Tracer.Domain/bin/Debug/net9.0/Tracer.Shared.dll
+/home/sakthi/projects/new/src/Tracer.Domain/bin/Debug/net9.0/Tracer.Shared.pdb
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.csproj.AssemblyReference.cache
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.AssemblyInfoInputs.cache
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.AssemblyInfo.cs
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.csproj.CoreCompileInputs.cache
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.sourcelink.json
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.D.248E4BAA.Up2Date
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.dll
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/refint/Tracer.Domain.dll
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/Tracer.Domain.pdb
+/home/sakthi/projects/new/src/Tracer.Domain/obj/Debug/net9.0/ref/Tracer.Domain.dll

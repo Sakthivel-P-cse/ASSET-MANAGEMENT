@@ -1,0 +1,92 @@
+// Include theming for Angular Material with `mat.theme()`.
+// This Sass mixin will define CSS variables that are used for styling Angular Material
+// components according to the Material 3 design spec.
+// Learn more about theming and how to use it for your application's
+// custom components at https://material.angular.dev/guide/theming
+@use '@angular/material' as mat;
+
+html {
+  height: 100%;
+  @include mat.theme(
+    (
+      color: (
+        primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+body {
+  // Default the application to a light color theme. This can be changed to
+  // `dark` to enable the dark color theme, or to `light dark` to defer to the
+  // user's system settings.
+  color-scheme: light;
+
+  // Set a default background, font and text colors for the application using
+  // Angular Material's system-level CSS variables. Learn more about these
+  // variables at https://material.angular.dev/guide/system-variables
+  background-color: var(--mat-sys-surface);
+  color: var(--mat-sys-on-surface);
+  font: var(--mat-sys-body-medium);
+
+  // Reset the user agent margin.
+  margin: 0;
+  height: 100%;
+}
+
+/*
+ * MDC data-table cells use overflow:hidden + text-overflow:ellipsis.
+ * Action columns hold icon buttons whose Material Icons ligatures are still
+ * text nodes — a squeezed cell clips "delete" into literal "...". Override
+ * that ellipsis on every actions column and keep mat-icon glyphs unclipped.
+ */
+.mat-mdc-cell.mat-column-actions,
+.mat-mdc-header-cell.mat-column-actions,
+.mat-mdc-cell.action-column,
+.mat-mdc-header-cell.action-column,
+.mat-mdc-cell.actions-cell,
+.mat-mdc-header-cell.actions-cell {
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: nowrap !important;
+  width: 1%;
+}
+
+.mat-column-actions .mat-mdc-icon-button,
+.action-column .mat-mdc-icon-button,
+.actions-cell .mat-mdc-icon-button {
+  vertical-align: middle;
+}
+
+.mat-mdc-icon-button .mat-icon,
+.mat-icon {
+  overflow: visible !important;
+  text-overflow: clip !important;
+  font-family: 'Material Icons', sans-serif;
+  font-feature-settings: 'liga';
+  -webkit-font-feature-settings: 'liga';
+}
+
+/* Themed snackbars used by ToastService (panelClass). */
+.notification-snackbar {
+  --mat-snack-bar-button-color: #ffffff;
+
+  &.notification-success {
+    --mdc-snackbar-container-color: #2e7d32;
+    --mdc-snackbar-supporting-text-color: #ffffff;
+  }
+
+  &.notification-error {
+    --mdc-snackbar-container-color: #c62828;
+    --mdc-snackbar-supporting-text-color: #ffffff;
+  }
+
+  &.notification-info {
+    --mdc-snackbar-container-color: #1565c0;
+    --mdc-snackbar-supporting-text-color: #ffffff;
+  }
+}
+

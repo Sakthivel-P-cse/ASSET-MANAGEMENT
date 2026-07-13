@@ -1,0 +1,19 @@
+.page { padding: 24px; }
+h1 { margin: 0 0 16px; font-size: 24px; font-weight: 500; }
+.tab { padding: 16px; min-height: 160px; }
+.loading { display: flex; justify-content: center; padding: 48px; }
+.empty { color: #757575; }
+table { width: 100%; }
+a { font-weight: 500; color: inherit; }
+.action-column {
+  width: 140px;
+  text-align: right;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+.action-column button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}

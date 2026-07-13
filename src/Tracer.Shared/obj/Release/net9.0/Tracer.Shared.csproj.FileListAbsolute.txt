@@ -1,0 +1,12 @@
+/home/sakthi/projects/new/src/Tracer.Shared/bin/Release/net9.0/Tracer.Shared.deps.json
+/home/sakthi/projects/new/src/Tracer.Shared/bin/Release/net9.0/Tracer.Shared.dll
+/home/sakthi/projects/new/src/Tracer.Shared/bin/Release/net9.0/Tracer.Shared.pdb
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/Tracer.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/Tracer.Shared.AssemblyInfoInputs.cache
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/Tracer.Shared.AssemblyInfo.cs
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/Tracer.Shared.csproj.CoreCompileInputs.cache
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/Tracer.Shared.sourcelink.json
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/Tracer.Shared.dll
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/refint/Tracer.Shared.dll
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/Tracer.Shared.pdb
+/home/sakthi/projects/new/src/Tracer.Shared/obj/Release/net9.0/ref/Tracer.Shared.dll
